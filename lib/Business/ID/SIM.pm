@@ -1,5 +1,8 @@
 package Business::ID::SIM;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use warnings;
 use strict;
@@ -9,8 +12,6 @@ use DateTime;
 require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw(parse_sim);
-
-# VERSION
 
 # legend: S = lack of samples
 
@@ -81,7 +82,7 @@ sub parse_sim {
 }
 
 1;
-# ABSTRACT: Validate Indonesian driving license number (nomor SIM)
+# ABSTRACT:
 
 =head1 SYNOPSIS
 
