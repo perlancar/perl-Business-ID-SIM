@@ -1,6 +1,7 @@
 package Business::ID::SIM;
 
 # DATE
+# DIST
 # VERSION
 
 use 5.010001;
@@ -9,9 +10,8 @@ use strict;
 
 use DateTime;
 
-require Exporter;
-our @ISA = qw(Exporter);
-our @EXPORT = qw(parse_sim);
+use Exporter 'import';
+our @EXPORT_OK = qw(parse_sim);
 
 # legend: S = lack of samples
 

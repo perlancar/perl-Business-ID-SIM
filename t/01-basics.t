@@ -3,10 +3,10 @@
 use 5.010;
 use strict;
 use warnings;
+use Test::More 0.98;
 
 use Business::ID::SIM qw(parse_sim);
 use Data::Clean::JSON;
-use Test::More 0.98;
 
 test_parse(
     sim    => "0101 06 00 0001",
