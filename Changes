@@ -2,6 +2,16 @@
 
 	- [incompatible change] No longer export parse_sim() by default.
 
+        - UPDATE 2019-11-26: cancel release ("duplicate" version).
+
+
+0.08    2019-10-15  Released-By: PERLANCAR; Urgency: medium
+
+	- No longer export parse_sim() by default (but this is never
+	  documented anyway).
+
+	- Update renamed prereq Data::Clean::JSON -> Data::Clean::ForJSON.
+
 
 0.07    2015-09-03  Released-By: PERLANCAR
 
