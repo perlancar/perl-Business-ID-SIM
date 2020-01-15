@@ -28,7 +28,7 @@
 	  dependencies on our dist.
 
 
-0.05     2014-08-16 (SHARYANTO) - Happy 19th CPAN Day!
+0.05     2014-08-16  Released-By: SHARYANTO; Note: Happy 19th CPAN Day!
 
          - Add CLI script(s).
 
@@ -54,3 +54,4 @@
 0.01    2009-10-06  Released-By: SHARYANTO
 
         - First version, released on an unsuspecting world.
+
